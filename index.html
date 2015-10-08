@@ -18,7 +18,7 @@
 <div class="section">
     <div>
         <span>Scale: </span>
-        <input name="s", type="number", min="0", max="100", id="scale_input"></input>
+        <input name="s", type="number", min="0", max="100", id="scale_input", value="2"></input>
         <button name="scale", type="submit", id="scale_update">Update</button>
     </div>
     <img src='/static/linear_algebra_project/part_one_figure_scale.png'></img>
@@ -27,7 +27,7 @@
 <div class="section">
     <div>
         <span>Rotation: </span>
-        <input name="deg", type="number", min="-360", max="360" id="rotation_input"></input>
+        <input name="deg", type="number", min="-360", max="360" id="rotation_input", value="15"></input>
         <button name="rotate", type="submit", id="rotate_update">Update</button>
     </div>
     <img src='/static/linear_algebra_project/part_one_figure_rotate.png'></img>
@@ -36,7 +36,7 @@
 <div class="section">
     <div>
         <span>Shear: </span>
-        <input name="k", type="number", min="-5", max="5", id="shear_input"></input>
+        <input name="k", type="number", min="-5", max="5", id="shear_input", value="-0.5"></input>
         <button name="shear", type="submit", id="shear_update">Update</button>
     </div>
     <img src='/static/linear_algebra_project/part_one_figure_shear.png'></img>
@@ -45,9 +45,9 @@
 <div class="section">
     <div>
         <span>Shear: </span>
-        <input name="k", type="number", min="-5", max="5" id="shearrotate_input_shear"></input>
+        <input name="k", type="number", min="-5", max="5" id="shearrotate_input_shear", value="-0.5"></input>
         <span>Rotation: </span>
-        <input name="deg", type="number", min="-360", max="360" id="shearrotate_input_rotate"></input>
+        <input name="deg", type="number", min="-360", max="360" id="shearrotate_input_rotate", value="15"></input>
         <button name="shearrotate", type="submit", id="shearrotate_update">Update</button>
     </div>
     <img src='/static/linear_algebra_project/part_one_figure_shearrotate.png'></img>
@@ -56,9 +56,9 @@
 <div class="section">
     <div>
         <span>Rotation: </span>
-        <input name="deg", type="number", min="-360", max="360", id="rotateshear_input_rotate"></input>
+        <input name="deg", type="number", min="-360", max="360", id="rotateshear_input_rotate", value="15"></input>
         <span>Shear: </span>
-        <input name="k", type="number", min="-5", max="5", id="rotateshear_input_shear"></input>
+        <input name="k", type="number", min="-5", max="5", id="rotateshear_input_shear", value="-0.5"></input>
         <button name="rotateshear", type="submit", id="rotateshear_update">Update</button>
     </div>
     <img src='/static/linear_algebra_project/part_one_figure_rotateshear.png'></img>
